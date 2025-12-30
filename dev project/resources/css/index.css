@@ -1,0 +1,57 @@
+.banner {
+    background-color: purple;
+    margin-top: 75px;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#Daisy
+{
+    height: 500px;
+    width: 350px;
+}
+
+#about {
+    margin: 50px;
+    font-size: 100px;
+    color: lightcoral;
+    font-family: helvetica;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.button {
+    background-color: purple;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+ul,
+    li {
+        list-style-type: square;
+        color: black;
+        border-radius: 10px;
+        font-family: helvetica;
+    }
+
+.body {
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Helvetica;
+    padding: 100px 0;
+}

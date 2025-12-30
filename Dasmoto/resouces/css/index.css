@@ -1,0 +1,43 @@
+.starting-price {
+    color: blue;
+    font-weight: bold;
+}
+
+h2 {
+    background-color: mediumseagreen;
+
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align:center;
+    background-image: url(../images/pattern.jpeg);
+    margin-top: 100px;
+}
+
+h3 {
+    background-color: lightcoral;
+
+    
+}
+
+h1, h2, h3, h4, h5, p {
+    font-family: helvetica;
+}
+.section-head {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+
+h4 {
+    background-color: skyblue;
+
+}
+
+.section {
+    font-size: 18px;
+
+}
