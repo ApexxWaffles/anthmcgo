@@ -46,6 +46,18 @@ h2 {
     margin: 20px auto;
     padding: 20px;
     width: 77%;
+    
+}
 
+.html-tips {
+    list-style-position: inside;
+    text-align: center;
+    line-height: 1.5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: hsla(204, 6%, 83%, 0.5);
+    font-family: 'Roboto', 'Times New Roman', sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    width: 77%;
     
 }
