@@ -1,0 +1,53 @@
+.h1 {
+    color: purple;
+}
+
+.section {
+    border: solid 2.5px rgb(162, 162, 166);
+    text-align: center;
+    margin: 100px 100px;
+    
+    
+}
+
+.color-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    text-align: center;
+}
+
+.Colors {
+    
+}
+
+.color-pannel-blue {
+    background-color: #2d5dcc;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+}
+
+.color-pannel-green {
+    background-color: #4fe0b0;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+}
+
+.color-pannel-pink {
+    background-color: #d957d9;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+}
+
+
+.color-pannel-Beige {
+    background-color: #efd9ca;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+}
