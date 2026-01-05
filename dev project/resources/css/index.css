@@ -1,5 +1,9 @@
 .banner {
+<<<<<<< HEAD
     background-image: url(../images/beach.jpeg);
+=======
+    background-image: url("../images/beach.jpeg");
+>>>>>>> 5ef5601a4fc9fb6f055790f605a9b357f0a4d0ba
     margin-top: 75px;
     color: white;
     text-align: center;
