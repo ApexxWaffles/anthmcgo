@@ -1,25 +1,50 @@
-.h1 {
-    color: purple;
+h1 {
+    text-align: center;
+    margin: 50px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.body{
+    max-width: 900px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+p, ul {
+    font-size: 18px;
+    line-height: normal;
+    font-family: "Roboto", sans-serif;
 }
 
 .section {
     border: solid 2.5px rgb(162, 162, 166);
-    text-align: center;
-    margin: 100px 100px;
-    
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 1300px;
+    width: 90%;
     
 }
 
 .color-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-wrap: wrap;
     margin: 20px;
     text-align: center;
+    flex-direction: row;
 }
 
 .Colors {
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding 5px;
+    text-align: center;
     
 }
 
@@ -50,4 +75,112 @@
     padding: 10px;
     margin: 10px;
     width: 350px;
+}
+
+.Arial, .Courier, .Times, .Roboto {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.Arial {
+    font-family: Arial, sans-serif;
+}
+
+.Courier {
+    font-family: 'Courier New', monospace;
+}
+
+.Times {
+    font-family: "Times New Roman", serif;
+}
+
+.Roboto {
+    font-family: Roboto, sans-serif;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold, .p-1 {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.section ul {
+    list-style-type: square
+
+}
+
+.font {
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.p-2 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.p-1 {
+    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#five {
+    font-weight: 500;
+}
+
+#link:hover {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+#link::after {
+    content: " (opens in new tab)";
+    font-size: 12px;
+    color: gray;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+,button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+}
+
+li {
+    margin-bottom: 10px;
+    text-align: match-parent;
+    margin-left: 50px;
+}
+
+h2 {
+    text-align: left
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px
 }
