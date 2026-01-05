@@ -1,15 +1,19 @@
 .banner {
-    background-color: purple;
+    background-image: url(../images/beach.jpeg);
     margin-top: 75px;
     color: white;
     text-align: center;
-    padding: 100px 0;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
 }
 
 #Daisy
 {
     height: 500px;
     width: 350px;
+    border-radius: 25px;
+    overflow: hidden;
 }
 
 #about {
@@ -51,7 +55,33 @@ ul,
 .body {
     border-radius: 15px;
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     font-family: Helvetica;
     padding: 100px 0;
+    text-align: center;
+    box-shadow: inset 0 0 10px gray;
+    height: 75px;
+    background-color: rgba(128, 0, 128, 0.5);
+}
+
+.list {
+    box-shadow: 5px 5px 5px lightgray;
+    text-align: center;
+    border: 10px solid lightgray;
+    border-radius: 5px;
+    margin: auto; 10px;
+    padding: 20px 50px;
+    width: 300px;
+}
+
+.list li {
+    list-style-position: inside;
+}
+
+.fav-things {
+    background-color: rgba(128, 0, 128, 0.5);
+    box-shadow: inset 0 0 10px gray;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
 }
