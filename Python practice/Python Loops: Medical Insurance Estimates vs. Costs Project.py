@@ -33,3 +33,8 @@ for i in range(len(names)):
 updated_estimated_costs = [cost * 11/10 for cost in estimated_insurance_costs]
 print(updated_estimated_costs)
 
+secret_keys = [["Amy", "Amy123"], ["Zara", "abcde"], ["Donald", "321"]]
+
+for pair in secret_keys:
+  for item in pair:
+    print(item)
